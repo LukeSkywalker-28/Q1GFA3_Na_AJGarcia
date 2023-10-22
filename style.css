@@ -1,0 +1,80 @@
+*{
+   margin: 0px;
+   padding: 0px;
+
+}
+#navbar{
+    border: 1px solid #224DBC;
+    margin: auto;
+    padding: 32.2px;
+    text-align: center;
+    background-color: #224DBC;
+    margin-top: 5px;
+}
+.links {
+    display: inline;
+}
+#navbar .links a{
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    opacity: .60;
+    transition: 0.2s;
+}
+#navbar .links a:hover{opacity: 1; transition: 0.4s;}
+#home{background-color: #224DBC; color: yellow;}
+#sleep{ background-color: #224DBC; color: yellow;}
+#ref{ background-color: #224DBC; color: yellow;}
+#data{ background-color: #224DBC; color: yellow;}
+#conclude{ background-color: #224DBC; color: yellow;}
+#info{background-color: #224DBC; color: yellow;}
+
+.footer{
+    overflow: hidden;
+    background-color: #224DBC;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a{
+    float: right;
+    display: block;
+    background: #224DBC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.index_banner h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.index_banner{
+    background-image: url(banner1.jpeg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.sleep_banner{
+    background-image: url(bed.jpeg);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.datapics img{
+    width: 1000;
+}
+
+.databanner{
+    background-image: url(nighttime.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
